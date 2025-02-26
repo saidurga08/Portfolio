@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgb(50, 14, 82);
+  color: white;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+}
+
+.options li a {
+  font-size: 25px;
+  color: white;
+}
+
+.name p {
+  font-weight: bold;
+  font-size: 35px;
+}
